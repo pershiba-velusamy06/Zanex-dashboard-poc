@@ -18648,6 +18648,9 @@ ul.inbox-pagination li {
     padding-right: 0;
     position: absolute;
     top: 10% !important;
+    overflow-x: hidden;
+    width: -webkit-fill-available;
+  
 }
 
 .hor-rightangle {
