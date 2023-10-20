@@ -18646,6 +18646,7 @@ ul.inbox-pagination li {
 .main-content.app-content .main-container {
     padding-left: 0;
     padding-right: 0;
+    margin-right :30px;
     position: absolute;
     top: 10% !important;
     overflow-x: hidden;
