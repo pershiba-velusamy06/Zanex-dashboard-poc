@@ -3,6 +3,7 @@ import Routing from './Routing';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Styles/index.scss'
 import "bootstrap-icons/font/bootstrap-icons.css";
+
 import LayoutIndex from './pages/layout/LayoutIndex';
 function App() {
   return (

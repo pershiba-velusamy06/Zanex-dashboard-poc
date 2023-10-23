@@ -4827,7 +4827,7 @@ input[type=button].btn-block {
 }
 
 /*------ Card -------*/
-.card {
+/* .card {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -4840,7 +4840,7 @@ input[type=button].btn-block {
     background-clip: border-box;
     border-radius: 5px;
     box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
-}
+} */
 
 .card>hr {
     margin-right: 0;
@@ -4857,13 +4857,13 @@ input[type=button].btn-block {
     border-bottom-left-radius: 7px;
 }
 
-.card-body {
+/* .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 25px;
     margin: 0;
     position: relative;
-}
+} */
 
 .card-subtitle {
     margin-top: -0.75rem;

@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: inherit !important;
+    background-clip: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 25px;
+    margin: 0;
+    position: relative;
+}
+
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
