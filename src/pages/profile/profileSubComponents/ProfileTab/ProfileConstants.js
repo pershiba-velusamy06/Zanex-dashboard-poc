@@ -32,6 +32,7 @@ export const Friends=[
 
 
 export const galleryImages=[
+    'https://static.vecteezy.com/system/resources/thumbnails/019/900/322/small/happy-young-cute-illustration-face-profile-png.png',
     'http://react.spruko.com/zanex/preview/assets/15-206057a7.jpg',
     'http://react.spruko.com/zanex/preview/assets/9-2e9c1000.jpg',
     'http://react.spruko.com/zanex/preview/assets/20-cfe9ba5e.jpg',

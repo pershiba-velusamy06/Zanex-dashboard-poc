@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navbar-logo {
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #fff;
+  background-color: #0a4f56;
+}
+
+
+.image-gallery{
+    /* max-width: 60vw;
+    width: 600px; */
+
+ padding: 5px;
+}
+
+.item-width-gallery{
+    width: 500px;
+    height: 250px;
+}
+.gallery-image-size{
+    height: 150px;
+    width: 200px;
+    max-width: 400px;
+    max-height: 350px;
+}
+.gallery-item {
+    width: 200px;
+    padding: 5px;
+  }
+  
