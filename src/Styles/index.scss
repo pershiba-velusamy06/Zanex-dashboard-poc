@@ -12,3 +12,26 @@
 @import './style.css';
  @import './plugins.css';
 //@import './icons.css'
+
+
+.react-bootstrap-table-pagination-total{
+visibility: visible !important;
+}
+
+
+.lg-toolbar.lg-group{
+background-color: #6259ca;
+}
+
+
+
+.lg-actions .lg-next{
+    background-color: #6259ca !important; 
+}
+.lg-actions .lg-prev{
+    background-color: #6259ca !important; 
+}
+.lg-thumb-outer.lg-grab{
+visibility: hidden;
+}
+

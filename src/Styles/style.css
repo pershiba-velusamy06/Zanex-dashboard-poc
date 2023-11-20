@@ -5727,6 +5727,7 @@ a.card-tabs-item.active {
     border: 1px solid transparent;
     background-clip: border-box;
     border-radius: 5px;
+    margin-top: 1.5rem;
 }
 
 .card>hr {

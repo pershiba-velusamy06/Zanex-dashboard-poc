@@ -11,6 +11,7 @@
     background-clip: border-box;
     border-radius: 5px;
     box-shadow: 0 3px 9px 0 rgba(169, 184, 200, 0.15);
+    padding-bottom: 8px !important;
 }
 
 .card-body {
@@ -19,8 +20,11 @@
     padding: 25px;
     margin: 0;
     position: relative;
+  
 }
-
+// .row-wrapper{
+//     height: auto !important;
+// }
 
 .table-responsive {
     display: block;
@@ -28,4 +32,63 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-left: 25px !important;
+}
+
+
+.table-margin{
+
+margin: 70px 25px 25px 25px;
+}
+
+// .btn .btn-default .btn-secondary .dropdown-toggle{
+
+//     background-color:transparent !important;
+
+
+// }
+
+.react-bs-table-sizePerPage-dropdown{
+//position: relative;
+}
+#pageDropDown{
+    position: absolute !important;
+    top: -462px !important;
+    background-color:transparent !important;
+    :hover{
+        color: transparent !important;
+        border-color:transparent !important;
+            }
+}
+.dropdown-item{
+    padding: none !important;
+    a{
+        padding: none !important;
+           } 
+}
+.dropdown-menu {
+    position: absolute !important;
+    top: -415px !important;  
+    min-width: 15px !important;
+
+}
+.pagination{
+     position: absolute;
+     right: 0 !important    ;
+    //padding-left: 54px !important;
+    margin-right: 11px !important;
+    top: -7px !important;
+   
+}
+
+.input-search{
+    position: absolute;
+    right: 25px;
+    top: 74px;
+    border: 1px solid #eaedf1;
+    border-radius: 7px;
+    padding: 0.25rem 0.5rem
+}
+.react-bootstrap-table-pagination-total{
+visibility: visible !important;
 }

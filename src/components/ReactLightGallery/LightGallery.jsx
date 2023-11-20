@@ -52,6 +52,7 @@ export const LightGallery = ({galleryImages}) => {
             onSlideClick={() => console.info("onSlideClick")}
             onBeforeClose={() => console.info("onBeforeClose")}
             onCloseAfter={() => console.info("onCloseAfter")}
+           
           >
 
             <div
@@ -65,7 +66,7 @@ export const LightGallery = ({galleryImages}) => {
               {galleryImages.map((p, idx) => (
                <div key={idx}  className="col-lg-3 col-md-6 image-gallery">
                <LightgalleryItem  group={'galleryImages'} src={p} thumb={p} itemClassName='gallery-item'>
-                 <img className="br-7" src={p}  style={{ width: "100%"}} alt="img1" />
+                 <img className="br-7" src={p}  style={{ width: "100%"}} alt="img1" downloadUrl={p} />
                </LightgalleryItem>
              </div>
               ))}

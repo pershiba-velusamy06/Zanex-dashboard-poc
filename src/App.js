@@ -13,7 +13,7 @@ function App() {
     <div className="app sidebar-mini ltr light-mode">
       <div className="page">
         <div className="page-main">
-        <LayoutIndex />
+        {/* <LayoutIndex /> */}
           <Routing />
         </div>
       </div >
